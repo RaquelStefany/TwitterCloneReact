@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#root {
+  padding: 0 1em;
+  width: 100vmax;
+}
+
+.menu{ 
+  padding: 1em 0 0.5em;
+  display: grid;
+  align-content: space-between;
+  height: 97vh;
+  left: 2em;
+  border-right: outset 1px;
+  position: fixed;
+  overflow: auto;
+}
+
+.menu div{
+  width: 250px;
+  padding-right: 0.5em;
+}
+
+.menu div > .iconMenu{
+  font-size: x-large;
+  margin-left: 0.5em;
+}
+
+.itemMenu{
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  padding-right: 1em;
+}
+
+.itemMenu:hover{
+  background-color: #515151;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  color: white;
+}
+
+.itemMenu .iconMenu{
+  margin-right: 1em;
+  font-size: larger;
+}
+
+.btnTweetar{
+  background-color: #1d9bf0;
+  font-weight: 700;
+  padding: 1em 5em;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin-top: 1em;
+}
+
+.btnTweetar:hover{
+  background-color: #1b90dd;
+}
+
+.menuPerfil img{
+  width: 50px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.menuPerfil{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menuPerfil > div{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.menuPerfil > div p{
+  font-weight: bold;
+  text-align: left;
+  font-size: 15px;
+}
+
+.menuPerfil > div p span{
+  font-weight: 100;
+  font-family: system-ui, sans-serif;
+}
+
+.menuPerfil > div .iconMenu{
+  font-size: x-large;
+}
+
+.paginaInicial{
+  margin: 0;
+  margin-left: 280px;
+  padding: 0.5em;
+}
+
+.paginaInicial h1{
+  font-size: large;
+  font-weight: 700;
+  margin-top: 0.5em;
+}
+
+.tweet{
+  width: 100%;
+}
+
+.tweet .top{
+  display: flex;
+  align-content: center;
+}
+
+.tweet .top img{
+  width: 50px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  margin-right: 1em;
+}
+
+.tweet .top input{
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+}
+
+.tweet .top input::placeholder{
+  font-weight: 500;
+  font-size: large;
+}
+
+.assuntos{
+  position: fixed;
+  right: 2em;
+  top: 1em;
+  display: grid;
+}
